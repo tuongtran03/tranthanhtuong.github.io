@@ -1,0 +1,33 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #4CAF50; /* Green color for the name */
+}
+
+p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#footer {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+  padding: 15px; /* Slightly larger padding */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: 'Arial', sans-serif; /* Clean font */
+  font-size: 14px; /* Slightly larger font size */
+}
